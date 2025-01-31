@@ -18,7 +18,119 @@
 </style>
 <title>Browse4Pets</title>
 </head>
-<body class="sora-regular">
-    
+<body class="sora-regular text-[#111111]">
+    <header>
+        <nav class="bg-[#FFF9F4] flex items-center justify-around mx-auto py-5">
+            <div class="flex items-center space-x-2">
+                <img class="max-w-12" src="c1-assets/logo-header.png" alt="">
+                <h4 class="hidden lg:font-bold lg:text-xl">Browse<span class="text-[#FFDC26]">4</span>Pets</h4>
+            </div>
+            <div>
+                <ul class="hidden lg:flex space-x-5 lg:text-base">
+                    <li>Find a pet</li>
+                    <li>Breeds</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="hidden lg:flex lg:items-center space-x-2">
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-8 w-8"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                      </svg>
+                <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-8 w-8"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                    <button class="btn border-[#FFDC26] bg-transparent px-7 lg:py-2 items-center text-lg">Login</button>
+                    <button class="btn bg-[#FFDC26] px-7 py-2 items-center text-lg">Register</button>
+            </div>
+            <div class="lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                    <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+                    </svg>
+            </div>
+        </nav>
+        <section class="px-[8%] my-20">
+            <div class="grid grid-cols-1 lg:grid lg:grid-cols-2">
+                <div class="space-y-4">
+                    <h1 class="font-bold text-5xl adlam-display-regular">Pamper Your Pet, Because They Deserve the Bes</h1>
+                    <p class="font-light rgb(17, 17, 17)">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                    <button class="btn bg-[#FFDC26] px-7 py-2 items-center text-lg">Find a pet</button>
+                </div>
+                <div>
+                    <img class="w-max" src="c1-assets/cat-big.png" alt="">
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <main>
+        <section class="px-[8%] my-20">
+            <div>
+                <h2 class="font-bold text-xl adlam-display-regular">Browse By Categories</h2>
+                <div class="grid grid-cols-2 space-y-6 lg:grid lg:grid-cols-6 space-x-6 mx-auto mt-8">
+                    <div class="bg-[#F9DF8A] text-center items-center py-8 rounded-xl">
+                        <div class="flex justify-center">
+                            <img class="bg-white rounded-full p-5" src="c1-assets/dog-cartoon.png" alt="">
+                        </div>
+                        <h4 class="adlam-display-regular">Dog</h4>
+                        <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F9DF8A] text-center items-center py-8 rounded-xl">
+                        <div class="flex justify-center">
+                            <img class="bg-white rounded-full p-5" src="c1-assets/fish-cartoon.png" alt="">
+                        </div>
+                        <h4 class="adlam-display-regular">Fish</h4>
+                        <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F9DF8A] text-center items-center py-8 rounded-xl">
+                        <div class="flex justify-center">
+                            <img class="bg-white rounded-full p-5" src="c1-assets/cat-cartoon.png" alt="">
+                        </div>
+                        <h4 class="adlam-display-regular">Cat</h4>
+                        <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F9DF8A] text-center items-center py-8 rounded-xl">
+                        <div class="flex justify-center">
+                            <img class="bg-white rounded-full p-5" src="c1-assets/bird-cartoon.png" alt="">
+                        </div>
+                        <h4 class="adlam-display-regular">Bird</h4>
+                        <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F9DF8A] text-center items-center py-8 rounded-xl">
+                        <div class="flex justify-center">
+                            <img class="bg-white rounded-full p-5" src="c1-assets/mouse-cartoon.png" alt="">
+                        </div>
+                        <h4 class="adlam-display-regular">Small pet</h4>
+                        <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F9DF8A] text-center items-center py-8 rounded-xl">
+                        <div class="flex justify-center">
+                            <img class="bg-white rounded-full p-4" src="c1-assets/rabbit-cartoon.png" alt="">
+                        </div>
+                        <h4 class="adlam-display-regular">Rabit</h4>
+                        <p>2 items</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
 </body>
 </html>
